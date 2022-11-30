@@ -1,0 +1,26 @@
+.relatedThreads-wrapper {
+    margin: 1% 15% 0 15%;
+}
+.relatedThread-container{
+    display: flex;
+        justify-content: space-between;
+        background-color: rgb(27, 29, 30);
+        /* border: 1px solid white; */
+        padding: 10px;
+        margin-bottom: 10px;
+}
+.startThread-button{
+    color: rgb(232, 230, 227);
+    background-color: rgb(149, 37, 47);
+    /* color: */
+    box-shadow: rgb(0 0 0 / 50%) 0px 1px 3px -1px;
+    padding: 10px;    
+}
+.startThread-button:hover{
+    background-color :rgb(123, 32, 39);
+    transition: 0.2s ease-out;
+}
+.form-container div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

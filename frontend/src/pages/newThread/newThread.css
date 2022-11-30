@@ -1,0 +1,24 @@
+.newThread-wrapper{
+    color: rgb(189, 183, 175);
+    margin: 0 15% 0 15%;
+    background-color: rgb(27, 29, 30);
+    font-size: 15px;
+    height: calc(100vh - 75px);
+}
+
+textarea{
+    border: 1px solid wheat;
+    height: 250px;
+    width: 550px;
+    padding: 20px;
+    background-color: rgb(26, 28, 29);
+    color: rgb(200, 195, 188);
+    font-size: 18px;
+}
+textarea:focus {
+    box-shadow: rgb(0 115 183) 0px 0px 6px;
+    background-color: rgb(24, 26, 27);
+}
+.newThreadDetails-wrapper{
+    padding: 10px 10px 10px 10px;
+}

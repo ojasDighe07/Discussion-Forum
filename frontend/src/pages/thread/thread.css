@@ -1,0 +1,29 @@
+.forum-container{
+    background-color: rgb(56, 61, 63);
+    color: rgb(200, 195, 188);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.threadHeading-container{
+    
+    border-color:rgb(200, 195, 188);
+    background-color:  rgb(27, 29, 30);
+    padding: 20px 0px 25px 20px;
+}
+.threadUsername-container {
+    color: rgb(189, 183, 175);
+    font-size: 16px;
+    margin-bottom: 15px;   
+}
+.threadName-container{
+    color: rgb(228, 221, 212); 
+    font-size: 24px;
+}
+.topicName-container{
+    font-size: 16px;
+    margin-top: 10px;
+
+}

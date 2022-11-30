@@ -1,0 +1,23 @@
+.feed-container {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-evenly; */
+    padding-left: 15px;
+    /* align-items: center; */
+    /* border: 1px solid black; */
+}
+.feedThread-container{
+    background-color: rgb(28, 29, 30);
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border: 1px solid black;    
+}
+.feedThreadDesc-container{
+    margin-top: 10px;
+}
+.feedThreadUser-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}

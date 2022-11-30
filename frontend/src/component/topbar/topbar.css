@@ -1,0 +1,71 @@
+.topbar-container{
+   color: rgb(226, 224, 220) !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+background-color: rgb(41, 44, 46);
+    /* margin-bottom: 30px; */
+}
+.appName-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.homeLink-container{
+    flex: 0.5;
+}
+.search-container{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+input{
+    color: rgb(221, 218, 214);
+    background-color: rgb(77, 83, 86);
+    height: 36px;
+    width: 300px;
+    padding: 0px 12px 0px 12px;
+     border-color: rgb(221, 218, 214);
+    box-shadow: rgb(0 0 0 / 40%) 0px 1px 2px;
+}
+input:focus{
+    color: rgb(200, 195, 188) !important;
+    background-color: rgb(34, 36, 38) !important;
+    box-shadow: rgb(0 0 0 / 40%) 0px 0px 2px !important;
+}
+
+.topbarNewThread-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.topbarNewThread-container:hover {
+    /* transform: scale(1.05); */
+    transition: 0.1s ease-in;
+    color: rgb(150, 55, 55);
+    /* color: rgb(77, 198, 250); */
+}
+.blankUserProfile-container{
+    height: 50px;
+    width: 60px;
+    object-fit: contain;
+}
+.pfp-container{
+    border: 1px solid white;
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+}
+.logout-container{
+    flex: 0.75;
+    text-align: center;
+}
+button:disabled{
+    background-color: gray;
+    color: white;
+}
+button:disabled:hover{
+    background-color: gray;
+}

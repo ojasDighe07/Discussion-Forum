@@ -1,0 +1,26 @@
+.followedTopics-container {
+    flex: 0.75;
+    /* border: 1px solid black; */
+    
+}
+.topic-container {
+
+    background-color: rgb(27, 29, 30);
+    padding: 5px 6px 5px 6px;
+    font-family: Roboto,
+        sans-serif;
+   
+     border-bottom: 1px solid rgb(189, 183, 175);
+    border-collapse: collapse;
+    color: rgb(77, 198, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 0px 1px;
+}
+.topic-container:hover{
+        box-shadow: rgb(0 115 183) 0px 0px 6px;
+}
+.topic-container:first-child{
+    border-top: 1px solid rgb(189, 183, 175);
+}
